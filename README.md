@@ -21,6 +21,14 @@ In your `package.json`, use:
 }
 ```
 
+## Understanding Dependency Hierarchy
+
+- `@webdevstudios/js-coding-standards` requires:
+    + `@webdevstudios/eslint-config-js-coding-standards` requires:
+        * `@webdevstudios/eslint-plugin-js-coding-standards`
+
+By installing `js-coding-standards` you install `@webdevstudios/eslint-config-js-coding-standards`, which utilizes a custom ESLint plugin `@webdevstudios/eslint-plugin-js-coding-standards` for fustom lints.
+
 __________
 
 # Changelog
