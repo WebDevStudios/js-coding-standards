@@ -11,7 +11,7 @@
 
 Install via `npm`:
 
-`npm install git://git@github.com:WebDevStudios/js-coding-standards.git#1.0.0-beta1 --save-dev`
+`npm install git://git@github.com:WebDevStudios/js-coding-standards.git --save-dev`
 
 In your `package.json`, use:
 
