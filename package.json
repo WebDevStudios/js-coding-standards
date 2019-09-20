@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WebDevStudios/js-coding-standards/issues"
   },
-  "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme"
+  "homepage": "https://github.com/WebDevStudios/js-coding-standards#readme",
+  "dependencies": {
+    "@webdevstudios/eslint-config-js-coding-standards": "git+ssh://git@github.com/WebDevStudios/eslint-config-js-coding-standards.git"
+  }
 }
