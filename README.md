@@ -25,11 +25,6 @@ __________
 
 # Changelog
 
-## 1.0.0-beta1
-
-- Removed error for `@wordpress/dependency-group` rule
-- Working beta state the replicates JS from [WDS-Coding-Standards](https://github.com/WebDevStudios/WDS-Coding-Standards) with `@wordpress/eslint-plugin`
-
 ## 1.0.0-alpha1
 
-- Working version that uses the eslint-custom plugin correctly
+- Made into an eslint-config-agnostic repo that just requires `@webdevstudios/eslint-config-js-coding-standards` and `master` will be trusted as latest
