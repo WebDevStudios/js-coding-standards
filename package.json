@@ -1,6 +1,6 @@
 {
   "name": "@webdevstudios/js-coding-standards",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-beta1",
   "description": "WebDevStudios JavaScript Coding Standards",
   "main": "index.js",
   "scripts": {
