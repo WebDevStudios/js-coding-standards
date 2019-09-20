@@ -27,7 +27,7 @@ In your `package.json`, use:
     + `@webdevstudios/eslint-config-js-coding-standards` requires:
         * `@webdevstudios/eslint-plugin-js-coding-standards`
 
-By installing `js-coding-standards` you install `@webdevstudios/eslint-config-js-coding-standards`, which utilizes a custom ESLint plugin `@webdevstudios/eslint-plugin-js-coding-standards` for fustom lints.
+By installing `js-coding-standards` you install `@webdevstudios/eslint-config-js-coding-standards` for a selection of rules which utilizes a custom ESLint plugin `@webdevstudios/eslint-plugin-js-coding-standards` for some custom rules.
 
 __________
 
