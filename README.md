@@ -4,7 +4,9 @@
 
 ## How to Install
 
-`npm install git://git@github.com:WebDevStudios/js-coding-standards.git --save-dev`
+```bash
+npm install @webdevstudios/js-coding-standards@1.0.0-beta1 --save-dev
+```
 
 In your `package.json`, use:
 
