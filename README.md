@@ -15,6 +15,7 @@ In your `package.json`, use:
     "extends": "@webdevstudios/js-coding-standards"
 }
 ```
+
 __________
 
 # Changelog
