@@ -2,7 +2,7 @@
 
 # WebDevStudios JavaScript Coding Standards
 
-## Installation
+## How to Install
 
 Install via `npm`:
 
