@@ -8,12 +8,18 @@
 npm install @webdevstudios/js-coding-standards@1.0.0-beta1 --save-dev
 ```
 
-In your `package.json`, use:
+In your `package.json`, you can add:
 
 ```js
 "eslintConfig": {
     "extends": "@webdevstudios/js-coding-standards"
 }
+```
+
+To do it quickly to modify `package.json` using `jq` use:
+
+```bash
+echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package.json
 ```
 
 __________
