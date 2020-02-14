@@ -19,12 +19,16 @@ In your `package.json`, you can add:
 To modify `package.json` quickly using [`jq`](https://stedolan.github.io/jq/) use:
 
 ```bash
-echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package.json
+echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package-tmp.json && mv package-tmp.json package.json
 ```
 
 __________
 
 # Changelog
+
+## 1.0.1
+
+- Correction to readme fixing modifications using `jq`
 
 ## 1.0.0
 
