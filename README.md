@@ -16,7 +16,7 @@ In your `package.json`, you can add:
 }
 ```
 
-To modify `package.json` quickly using `jq` use:
+To modify `package.json` quickly using [`jq`](https://stedolan.github.io/jq/) use:
 
 ```bash
 echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package.json
