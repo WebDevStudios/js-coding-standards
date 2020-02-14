@@ -5,7 +5,7 @@
 ## How to Install
 
 ```bash
-npm install @webdevstudios/js-coding-standards@1.0.0-beta1 --save-dev
+npm install @webdevstudios/js-coding-standards --save-dev
 ```
 
 In your `package.json`, you can add:
