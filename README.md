@@ -26,6 +26,11 @@ __________
 
 # Changelog
 
+## 1.0.0
+
+- Stable release
+- Require [`@webdevstudios/eslint-config-js-coding-standards@1.0.0`](https://github.com/WebDevStudios/eslint-config-js-coding-standards/tree/1.0.0)
+
 ## 1.0.0-beta1
 
 - Installed public version of `@webdevstudios/eslint-config-js-coding-standards`
