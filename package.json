@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/WebDevStudios/js-coding-standards",
   "dependencies": {
-    "@webdevstudios/eslint-config-js-coding-standards": "~1.0.0",
+    "@webdevstudios/eslint-config-js-coding-standards": "~1.0.1",
     "eslint": "^6.4.0"
   },
   "contributors": [
