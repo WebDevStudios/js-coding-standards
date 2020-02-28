@@ -26,6 +26,10 @@ __________
 
 # Changelog
 
+## 1.0.2
+
+- Update `@webdevstudios/eslint-config-js-coding-standards` from `1.0.0` to `1.0.1` which introductes the exception for arrow functions
+
 ## 1.0.1
 
 - Correction to readme fixing modifications using `jq`
