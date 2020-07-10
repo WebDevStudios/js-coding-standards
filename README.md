@@ -26,6 +26,10 @@ __________
 
 # Changelog
 
+## Unreleased
+
+- Update `eslint@7` and `@webdevstudios/eslint-config-js-coding-standards@1.0.2` and sub-sequently `@webdevstudios/eslint-plugin-js-coding-standards@1.0.1`
+
 ## 1.0.2
 
 - Update `@webdevstudios/eslint-config-js-coding-standards` from `1.0.0` to `1.0.1` which introductes the exception for arrow functions
