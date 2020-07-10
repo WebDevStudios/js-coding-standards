@@ -26,7 +26,7 @@ __________
 
 # Changelog
 
-## Unreleased
+## 1.1.0
 
 - Update `eslint@7` and `@webdevstudios/eslint-config-js-coding-standards@1.0.2` and sub-sequently `@webdevstudios/eslint-plugin-js-coding-standards@1.0.1`
 
