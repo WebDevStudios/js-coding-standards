@@ -26,6 +26,10 @@ __________
 
 # Changelog
 
+## 1.1.1
+
+- Update `@webdevstudios/eslint-config-js-coding-standards` to new version `1.0.3` that fixes typo of rule `no-multi-space` <sup>[https://github.com/WebDevStudios/eslint-config-js-coding-standards/pull/23](PR)</sup>
+
 ## 1.1.0
 
 - Update `eslint@7` and `@webdevstudios/eslint-config-js-coding-standards@1.0.2` and sub-sequently `@webdevstudios/eslint-plugin-js-coding-standards@1.0.1`
