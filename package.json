@@ -18,6 +18,7 @@
   "homepage": "https://github.com/WebDevStudios/js-coding-standards",
   "dependencies": {
     "@webdevstudios/eslint-config-js-coding-standards": "~1.0.3",
+    "@webdevstudios/prettier-config-js-coding-standards": "~1.0.0",
     "eslint": ">=7.4.0 <7.5.x"
   },
   "contributors": [
