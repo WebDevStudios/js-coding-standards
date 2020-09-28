@@ -25,7 +25,7 @@ For [Prettier](http://prettier.io/) support, add to `package.json`:
 To modify `package.json` quickly using [`jq`](https://stedolan.github.io/jq/) use:
 
 ```bash
-echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package-tmp.json && mv package-tmp.json package.json && echo $( jq '.prettier = "@webdevstudios/prettier-config-js-coding-standards"' package.json ) | jq . > package-tmp.json && mv package-tmp.json package.json
+echo $( npx jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | npx jq . > package-tmp.json && mv package-tmp.json package.json && echo $( npx jq '.prettier = "@webdevstudios/prettier-config-js-coding-standards"' package.json ) | npx jq . > package-tmp.json && mv package-tmp.json package.json
 
 ```
 
