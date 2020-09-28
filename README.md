@@ -16,7 +16,7 @@ In your `package.json`, you can add:
 }
 ```
 
-For prettier support, add to `package.json`:
+For [Prettier](http://prettier.io/) support, add to `package.json`:
 
 ```js
 "prettier": "@webdevstudios/prettier-config-js-coding-standards"
