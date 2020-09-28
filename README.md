@@ -29,14 +29,6 @@ echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' p
 
 ```
 
-## Using Prettier
-
-All you need to do to add auto-formatting support is install your favorite Prettier package in your editor or IDE and make sure you re-run the the `jq` command above. It should auto-detect the new Prettier config and auto-format your file.
-
-### A note on pre-existing code
-
-You might be working on code that is older than when prettier was installed, so when you save it will auto-format the _entire_ file which may make your diff's bigger than intended because prettier will correct old code automatically.
-
 __________
 
 # Changelog
