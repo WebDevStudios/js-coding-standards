@@ -16,15 +16,30 @@ In your `package.json`, you can add:
 }
 ```
 
+For prettier support, add to `package.json`:
+
+```js
+"prettier": "@webdevstudios/prettier-config-js-coding-standards"
+```
+
 To modify `package.json` quickly using [`jq`](https://stedolan.github.io/jq/) use:
 
 ```bash
-echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package-tmp.json && mv package-tmp.json package.json
+echo $( jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | jq . > package-tmp.json && mv package-tmp.json package.json && echo $( jq '.prettier = "@webdevstudios/prettier-config-js-coding-standards"' package.json ) | jq . > package-tmp.json && mv package-tmp.json package.json
+
 ```
+
+## Using Prettier
+
+All you need to do to add auto-formatting support is install your favorite Prettier package in your editor or IDE and make sure you re-run the 
 
 __________
 
 # Changelog
+
+## Unreleased
+
+- JS Coding Standards now comes with [Prettier](http://prettier.io/) support! <sup>[PR](https://github.com/WebDevStudios/js-coding-standards/pull/12), [npmjs.org](https://www.npmjs.com/package/@webdevstudios/prettier-config-js-coding-standards)</sup>
 
 ## 1.1.1
 
