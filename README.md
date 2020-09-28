@@ -33,7 +33,7 @@ __________
 
 # Changelog
 
-## Unreleased
+## 1.2.0
 
 - JS Coding Standards now comes with [Prettier](http://prettier.io/) support! <sup>[PR](https://github.com/WebDevStudios/js-coding-standards/pull/12), [npmjs.org](https://www.npmjs.com/package/@webdevstudios/prettier-config-js-coding-standards)</sup>
 
