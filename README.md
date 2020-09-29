@@ -19,19 +19,23 @@ In your `package.json`, you can add:
 For [Prettier](http://prettier.io/) support, add to `package.json`:
 
 ```js
-"prettier": "@webdevstudios/prettier-config-js-coding-standards"
+"prettier": "@webdevstudios/prettier-config-coding-standards"
 ```
 
 To modify `package.json` quickly using [`jq`](https://stedolan.github.io/jq/) use:
 
 ```bash
-echo $( npx jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | npx jq . > package-tmp.json && mv package-tmp.json package.json && echo $( npx jq '.prettier = "@webdevstudios/prettier-config-js-coding-standards"' package.json ) | npx jq . > package-tmp.json && mv package-tmp.json package.json
+echo $( npx jq '.eslintConfig = {"extends": "@webdevstudios/js-coding-standards"}' package.json ) | npx jq . > package-tmp.json && mv package-tmp.json package.json && echo $( npx jq '.prettier = "@webdevstudios/prettier-config-coding-standards"' package.json ) | npx jq . > package-tmp.json && mv package-tmp.json package.json
 
 ```
 
 __________
 
 # Changelog
+
+## 1.2.1
+
+- Use [@webdevstudios/prettier-config-coding-standards](https://www.npmjs.com/package/@webdevstudios/prettier-config-coding-standards) as the `prettier` configuration in `package.json` so that it can dynamically load other coding standard configurations automatically
 
 ## 1.2.0
 
