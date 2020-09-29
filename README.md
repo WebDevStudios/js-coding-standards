@@ -33,6 +33,12 @@ __________
 
 # Changelog
 
+## 1.2.2
+
+- Removes `@webdevstudios/prettier-config-coding-standards` package as a dependency, as it should have (and has) been installed in the `@webdevstudios/prettier-config-js-coding-standards` package
+
+But, the instructions in the `README` still needed to be updated.
+
 ## 1.2.1
 
 - Use [@webdevstudios/prettier-config-coding-standards](https://www.npmjs.com/package/@webdevstudios/prettier-config-coding-standards) as the `prettier` configuration in `package.json` so that it can dynamically load other coding standard configurations automatically

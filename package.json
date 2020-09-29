@@ -1,6 +1,6 @@
 {
   "name": "@webdevstudios/js-coding-standards",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "WebDevStudios JavaScript Coding Standards",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,7 @@
   "homepage": "https://github.com/WebDevStudios/js-coding-standards",
   "dependencies": {
     "@webdevstudios/eslint-config-js-coding-standards": "~1.0.3",
-    "@webdevstudios/prettier-config-coding-standards": "~1.0.0",
-    "@webdevstudios/prettier-config-js-coding-standards": "~1.0.1",
+    "@webdevstudios/prettier-config-js-coding-standards": "~1.0.2",
     "eslint": ">=7.4.0 <7.5.x"
   },
   "contributors": [
