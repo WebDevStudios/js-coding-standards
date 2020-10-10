@@ -54,3 +54,18 @@ function whataboutafunctionthatgoeswaywaywaybeyondtheeightyrulerwhatabouthtathuh
 }
 
 whataboutafunctionthatgoeswaywaywaybeyondtheeightyrulerwhatabouthtathuhhuhlikethat();
+
+/**
+ * Thing
+ *
+ * @author Aubrey Portwood <aubrey@webdevstudios.com>
+ * @since  Friday, 10/9/2020
+ * @return {boolean} Boolean value.
+ */
+function thing() {
+
+	// Comment on first line must have space before, but prettier smushes.
+	return true;
+}
+
+thing();
