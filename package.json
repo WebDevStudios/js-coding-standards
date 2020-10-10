@@ -28,6 +28,6 @@
     }
   ],
   "eslintConfig": {
-    "extends": "@webdevstudios/js-coding-standards"
+    "extends": "@webdevstudios/eslint-config-js-coding-standards"
   }
 }
