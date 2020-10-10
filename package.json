@@ -26,5 +26,8 @@
       "email": "code@aubreypwd.com",
       "url": "http://aubreypwd.com"
     }
-  ]
+  ],
+  "eslintConfig": {
+    "extends": "@webdevstudios/js-coding-standards"
+  }
 }
