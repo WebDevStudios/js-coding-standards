@@ -1,7 +1,7 @@
 /**
- * @purpose To test auto-formatting of PrettierJS.
+ * @purpose To test auto-formatting of eslint --fix.
  *
- * Use `./node_modules/.bin/prettier --write examples/js/prettier.js` command
+ * Use `./node_modules/.bin/eslint --fix examples/js/auto-formatting.js` command
  * to test this file.
  *
  * Be carful not to fix and commit this file!
@@ -18,17 +18,15 @@
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
  * @since  Friday, 9/25/2020
  * @return {boolean} Nothing important.
- *
- * @see https://prettier.io/docs/en/options.html#tabs `useTabs`
  */
 function name() {
 
-    return false; // This line uses spaces, it should use tabs.
-     // These spaces are bad too.
+    return false; // This line uses spaces, it should use tabs, should get fixed.
+     // These spaces are bad too, should get fixed.
 
 }
 
-name  (); // There is bad spacing here.
+name  (); // There is bad spacing here, should get fixed.
 
 /**
  * This is Crazy
@@ -38,8 +36,6 @@ name  (); // There is bad spacing here.
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
  * @since  Friday, 9/25/2020
  * @return {boolean} True
- *
- * @see https://prettier.io/docs/en/options.html#print-width `printWidth`
  */
 function whataboutafunctionthatgoeswaywaywaybeyondtheeightyrulerwhatabouthtathuhhuhlikethat() {
 	if ( true && false ) {
@@ -64,7 +60,7 @@ whataboutafunctionthatgoeswaywaywaybeyondtheeightyrulerwhatabouthtathuhhuhliketh
  */
 function thing() {
 
-	// Comment on first line must have space before, but prettier smushes.
+	// Comment on first line must have space before.
 	return true;
 }
 
