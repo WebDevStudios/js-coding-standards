@@ -33,6 +33,16 @@ __________
 
 # Changelog
 
+## Unreleased
+
+- We have _removed_ support for Prettier in favor of built in `eslint --fix`
+
+Though Prettier is faster, it is actually incompatible with our coding standards. Being over-opinionated it can format code in a way that actually breaks some of our standards, and can even cause infinite loops, where prettier breaks them as soon as you fix them.
+
+I am not keen on changing our coding standards to appease an over-opinionated auto-formatter, especially since `eslint --fix` will fix the _same exact_ issues, albeit slower.
+
+Maybe we will find a way to support Prettier down the road, but for now there is no way to reconcile the coding standards it breaks, and instead we can rely on `eslint --fix` (of which many editors have packages for) instead to achive the same effect.
+
 ## 1.2.2
 
 - Removes `@webdevstudios/prettier-config-coding-standards` package as a dependency, as it should have (and has) been installed in the `@webdevstudios/prettier-config-js-coding-standards` package
