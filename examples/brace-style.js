@@ -7,7 +7,7 @@
  * Invalid Brace Function.
  *
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
- * @since  NEXT
+ * @since  Unknown
  * @return {boolean} Description.
  */
 function foo()
@@ -19,7 +19,7 @@ function foo()
  * Invalid Brace Function.
  *
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
- * @since  NEXT
+ * @since  Unknown
  * @return {boolean} Description.
  */
 function baz()
@@ -43,7 +43,7 @@ foo();
  * Function that should be valid.
  *
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
- * @since  NEXT
+ * @since  Unknown
  * @return {boolean} Description.
  */
 function bar() {

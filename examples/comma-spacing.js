@@ -28,7 +28,7 @@ crush( arr2, arr, obj, obj2 );
  * Crush
  *
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
- * @since  NEXT
+ * @since  Unknown
  * @param  {Array} a Array.
  * @param  {Array} b Array.
  * @param  {Object} c Object.
@@ -41,7 +41,7 @@ function crush( a, b, c, d ) {
 	 * Foo
 	 *
 	 * @author Aubrey Portwood <aubrey@webdevstudios.com>
-	 * @since  NEXT
+	 * @since  Unknown
 	 * @param  {Array} e Array.
 	 * @param  {Array} f  Array.
 	 * @param  {Object} g  Object.
@@ -79,7 +79,7 @@ crush2( arr3,arr4,obj1,obj3 );
  * Crush
  *
  * @author Aubrey Portwood <aubrey@webdevstudios.com>
- * @since  NEXT
+ * @since  Unknown
  * @param  {Array} a Array.
  * @param  {Array} b Array.
  * @param  {Object} c Object.
@@ -92,7 +92,7 @@ function crush2( a, b,c, d ) {
 	 * Foo
 	 *
 	 * @author Aubrey Portwood <aubrey@webdevstudios.com>
-	 * @since  NEXT
+	 * @since  Unknown
 	 * @param  {Array} e Array.
 	 * @param  {Array} f  Array.
 	 * @param  {Object} g  Object.
