@@ -2,6 +2,12 @@
 
 # WebDevStudios JavaScript Coding Standards
 
+-------
+
+This package is DEPRECATED and no longer in use at WebDevStudios and will no longer be maintained.
+
+-------
+
 ## How to Install
 
 ```bash
